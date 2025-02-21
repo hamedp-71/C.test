@@ -1,0 +1,33 @@
+proxies:
+  # (hamedp71-ipv4)
+  - name: "hamedp71-ipv4 § 0"
+    type: wireguard
+    server: 188.114.97.104
+    port: 2408
+    ip: 172.16.0.2/24
+    ipv6: 2606:4700:110:83eb:3056:2bd8:98ce:d8ac/128
+    private-key: "WP1fJliRhBVqTXWSGGClMsJsXIHpO78lyJlEiphfQXQ="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    reserved: [93, 163, 28]
+    mtu: 1330
+    udp: true
+
+  # (Hamedp71-WoW-IPv4🇩🇪-1)
+  - name: "Hamedp71-WoW-IPv4🇩🇪-1 § 1"
+    type: wireguard
+    server: 188.114.97.104
+    port: 908
+    ip: 172.16.0.2/24
+    ipv6: 2606:4700:110:8a36:31d2:4bde:48b9:f622/128
+    private-key: "+IA9Sj+lWL0c6LQb0danJpPvQ6+T3IoA0hDecz+BIXg="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    reserved: [173, 160, 142]
+    mtu: 1330
+    udp: true
+
+proxy-groups:
+  - name: "🚀 Auto Select"
+    type: select
+    proxies:
+      - "hamedp71-ipv4 § 0"
+      - "Hamedp71-WoW-IPv4🇩🇪-1 § 1"
