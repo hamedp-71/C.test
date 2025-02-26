@@ -328,6 +328,7 @@ proxy-groups:
     type: select
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
+      - "🌍 Global"
       - "🇮🇷 Warp - IPv4"
       - "🇩🇪 Warp - IPv4"
       - "🇮🇷 hamedp71-1"
@@ -359,6 +360,17 @@ proxy-groups:
       - "🇮🇷ipv6 hamedp71-8"
       - "🇮🇷ipv6 hamedp71-9"
       - "🇮🇷ipv6 hamedp71-10"
+
+  - name: "🌍 Global"
+    type: select
+    proxies:
+      - "🇺🇸 USA - Server 1"
+      - "🇬🇧 UK - Server 1"
+      - "🇨🇦 Canada - Server 1"
+      - "🇩🇪 Germany - Server 1"
+      - "🇫🇷 France - Server 1"
+      - "🇯🇵 Japan - Server 1"
+      - "🇸🇬 Singapore - Server 1"
 
 rule-providers:
   ir:
