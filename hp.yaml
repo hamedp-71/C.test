@@ -364,13 +364,7 @@ proxy-groups:
   - name: "🌍 Global"
     type: select
     proxies:
-      - "🇺🇸 USA - Server 1"
-      - "🇬🇧 UK - Server 1"
-      - "🇨🇦 Canada - Server 1"
-      - "🇩🇪 Germany - Server 1"
-      - "🇫🇷 France - Server 1"
-      - "🇯🇵 Japan - Server 1"
-      - "🇸🇬 Singapore - Server 1"
+      - "🇩🇪 Warp - IPv4"
 
 rule-providers:
   ir:
