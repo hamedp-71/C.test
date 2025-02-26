@@ -55,9 +55,9 @@ proxies:
   - name: "🇮🇷 hamedp71-1"
     type: wireguard
     ip: 172.16.0.2/32
-    private-key: "QGAWKwwBJ2obTIUlIKkju2J5HIXZYJOcpOZSjEAg1nI="
-    server: 188.114.97.89
-    port: 987
+    private-key: "pmrMu3TI7/I04KxLa+G9EVDdYLV/fh+blN5tKwTod+o="
+    server: 188.114.97.130
+    port: 1843
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips:
       - "0.0.0.0/0"
@@ -113,7 +113,7 @@ proxies:
     type: wireguard
     ip: 172.16.0.3
     ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
+    private-key: "BPV6eAgkRoCInk4VIzB/dcLtrIi6wtJR2oJlsBWJH5k="
     server: 188.114.98.105
     port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
