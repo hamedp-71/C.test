@@ -62,10 +62,7 @@ proxies:
     allowed-ips:
       - "0.0.0.0/0"
       - "::/0"
-    reserved:
-      - 104
-      - 158
-      - 39
+    reserved: "AAAA"
     udp: true
     mtu: 1280
     dialer-proxy: ""
@@ -82,7 +79,7 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv4"
     type: wireguard
-    ip: 172.16.0.3
+    ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
     server: 188.114.97.136
@@ -91,10 +88,7 @@ proxies:
     allowed-ips:
       - "0.0.0.0/0"
       - "::/0"
-    reserved:
-      - 209
-      - 98
-      - 59
+    reserved: "AAAA"
     udp: true
     mtu: 1280
     dialer-proxy: ""
@@ -111,9 +105,9 @@ proxies:
 
   - name: "🇩🇪 Warp - IPv4"
     type: wireguard
-    ip: 172.16.0.3
+    ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
-    private-key: "BPV6eAgkRoCInk4VIzB/dcLtrIi6wtJR2oJlsBWJH5k="
+    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
     server: 188.114.98.105
     port: 1010
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
@@ -127,8 +121,8 @@ proxies:
 
   - name: "🇮🇷 Warp - IPv6"
     type: wireguard
-    ip: 172.16.0.2
-    ipv6: 2001:db8:1::3
+    ip: 172.16.0.2/32
+    ipv6: 2001:db8:1::1
     private-key: "GsKlQMftAHdzZjMC17pjwKl+Fs2EVoB8VvHb8JJVFr8="
     server: "[2606:4700:d0::5db:987a:2353:9dcc]"
     port: 3854
@@ -153,7 +147,7 @@ proxies:
 
   - name: "🇸🇪 Warp - IPv6"
     type: wireguard
-    ip: 172.16.0.2
+    ip: 172.16.0.2/32
     private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
     server: "188.114.96.151"
     port: 943
@@ -177,10 +171,7 @@ proxies:
     allowed-ips:
       - "0.0.0.0/0"
       - "::/0"
-    reserved:
-      - 104
-      - 158
-      - 39
+    reserved: "AAAA"
     udp: true
     mtu: 1280
     dialer-proxy: ""
