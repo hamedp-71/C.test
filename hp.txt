@@ -201,7 +201,7 @@ proxy-groups:
 
   - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
-    url: "http://www.gstatic.com/generate_204"
+    url: "http://www.google.com/gen_204"
     interval: 300
     tolerance: 100
     proxies:
